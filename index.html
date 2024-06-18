@@ -1,13 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Stylish Form</title>
-  </head>
-  <body>
 
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Stylish Form</title>
+</head>
+
+<body>
+  <main>
+    <h1>Say Hello!</h1>
+    <form>
+      <label for="yourname">Your Name</label>
+      <input type="text" id="yourname" name="yourname" placeholder="Enter your name">
+
+      <label for="email">Email</label>
+      <input type="text" id="email" name="email" placeholder="Enter your email address">
+
+      <label for="services">Needed Services</label>
+      <select id="services" name="services">
+        <option value="option-1">Choose Services</option>
+        <option value="option-2">Banana</option>
+        <option value="option-3">Cherry</option>
+        <option value="option-4">Date</option>
+      </select>
+
+      <label for="budget">Budget</label>
+      <select id="budget" name="budget">
+        <option value="option-1">Budget</option>
+        <option value="option-2">Low</option>
+        <option value="option-3">Medium</option>
+        <option value="option-4">High</option>
+      </select>
+
+      <label for="message">Message</label>
+      <input type="text" id="message" name="message" placeholder="Your message here...">
+
+      <button type="submit" id="btn"> Submit</button>
+    </form>
+  </main>
+</body>
+
 </html>
